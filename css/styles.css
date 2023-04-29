@@ -1,0 +1,171 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #0f0f0f;
+    
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px #5f5f5f;
+    background-color:#fbfbfb;
+   
+}
+
+.logo{
+    width: 150px;
+    margin-left: 10px;
+
+}
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+    }
+
+#inicio{
+    padding-top: 120px;
+  }
+  .parrafo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+ul.menu{
+    display: flex;
+    font-size: 20px;    
+}
+
+li.item-menu a{
+    padding: 16px;
+    display: inline-block;  
+}
+
+li.item-menu:hover{
+    background: rgba(175, 89, 158, 0.3);
+    transition: background-color 0.3s;
+    
+}
+
+#inicio{
+    text-align: center;
+    min-height: 100vh;
+}
+.texto_principal{
+    font-size: 36px;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 400px;
+    
+}
+.boton{
+    background-color: #af599e;
+    color: #fbfbfb;
+    border-radius: 1em;
+    font-size: 20px;
+    padding: 10px; 
+    margin-bottom: 50px;
+   
+}
+#contacto{
+    border-radius: 0.5em;
+    text-align: center;
+    color:  #0f0f0f;
+    min-height: 50vh;
+    margin-top: 200px;  
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parrafo2{
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 0.5em;
+   padding: 1em;
+}
+
+.texto_secundario{
+    font-size: 28px;
+}
+
+.iconos{
+    display: flex;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.icono1{
+    padding: 20px;
+}
+.icono2{
+    padding: 20px;
+}
+.icono3{
+    padding: 20px;
+}
+
+footer{
+    background-color: #af599e;
+    height: 90px;
+    color: #fbfbfb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
